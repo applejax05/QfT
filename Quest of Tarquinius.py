@@ -21,17 +21,18 @@ while True:
     elif d1a == "B":
         print ("You angered Fred. He kills you. RIP.")
         quit()
-    else :	
+    else :
+    	
     	print ("Incorrect input")
 print ("Fred will now travel along side you.")
 input ("You like fred. You decide to keep him as your friend. PRESS ENTER TO CONTINUE")
 while True:
     d1a = input ("While you travel through town, you find some golden coins. Do you steal them or pass by and let it go?A - Steal. B - Let it go.")
     if d1a == "A":
-        print ("You steal the coins. A gaurd sees you. \""+name+"!You have sinned! Give these pieces to me or SUFFFER!\" ""You give Guard Supremus the coins.")
+        print ("You steal the coins. A gaurd sees you. \""+name+"!You have sinned! Give these pieces to me or SUFFFER!\" ""You give him the coins.")
         break
     elif d1a == "B":
-        print ("A guard notices your good deed and decides to tell fellow guards to help you in times of trouble.")
+        print ("A gaurd notices your good deed and decides to tell fellow gaurds to help you in times of trouble.")
         break
     else:
         print ("Incorrect input")
@@ -41,27 +42,20 @@ print (" Ahh, a fresh new day for " + name + ". Cant wait to see what happens!")
 print (" DAY 2. Ready to go?")
 input ("Press ENTER to continue")
 while True:
-	d1a = input ("As you step outside, Fred greets you.\"""Hey,"+name+".\"He gives you options.You can go out and adventure (A) or stay and meet more people from the town. (B). Please type your response")
+	d1a = input ("As you step outside, Fred greets you. you can go out and adventure (A) or stay and meet more people from the town. (B). Please type your response")
 	if d1a == "A":
 		print ("You go out and adventure. While adventuring, you encounter a dragon. How will you fight it?")
 		while True:
 			d1b = input ("You can (A) play aggressive and go for a lunge or (B) play defensively and stay back.")
 			if d1b == "A":
-				print ("When you go for a lunge, you hit right in the heart and kill him.\"No!"+name+"! How?!\"the dragon lord Supremesus whispers. Congratulations!  Your quick wits saved you this time but maybe not next time. You now decide to go to the lounge and meet new people.")
+				print ("When you go for a lunge, you hit right in the heart and kill him. Congratulations!  Your quick wits saved you this time but maybe not next time. You now decide to go to the lounge and meet new people.")
 			elif d1b == "B":
-				print ("This dragon could breath fire.Your shield has been melted and you die.""\"Nooooo!""You hear fred shout")
-				input ("GAME OVER. Press ENTER to quit.")
+				("This dragon could breath fire your shield has been melted and you die.""\"Nooooo!""You hear fred shout")
 				quit()
 			else:
 				print ("Incorrect input,"+name+".")
 	elif d1a == "B":
-		d1b= input ("After a night on the town, you get scratched up and now are quite weak.You get pretty talkative and anger some people.Do you A) Fight or B) calmly defuse the situation.")
-			while True
-				if d1b == "A"
-					print ("The man you fought ended up being a boxer and sends you to the emergency room. Your quick wits cant save you this time.")
-					input ("GAME OVER.Please press enter to end.")
-					input ("Sorry,"+name+".")
-		
+		print ("At the town you discover other things. Meet new people, find some useless items. .")
 		break
 	else:
 		print ("Incorrect input,"+name+".")
